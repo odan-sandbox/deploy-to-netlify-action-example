@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: odanado/deploy-to-netlify-action@test/v0.0.15
         with:
-          dist-dir: public
+          dist-dir: dist
           netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
           netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
