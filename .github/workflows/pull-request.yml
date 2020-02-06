@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: odanado/deploy-to-netlify-action@test/v0.0.13
+      - uses: odanado/deploy-to-netlify-action@test/v0.0.14
         with:
           dist-dir: public
           netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
